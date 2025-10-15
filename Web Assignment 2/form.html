@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./response.html" target="" name="Biodata"
+    method="get"></form>
+    <fieldset>
+        <legend>Biodata</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="tel">Phone:</label>
+        <input type="tel" id="tel" name="tel" placeholder="Enter your phone number" required><br><br>
+
+        <label for="attempt">Attempt:</label>
+        <input type="number" id="attempt" name="attempt" min="1" max="3" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="Gender"
+        value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender"
+        value="female" required>
+        <label for="female">Female</label><br><br>
+        
+
+        <label for="check">Vechicles u Have</label>
+        <input type="checkbox" id="Bike" name="vehicle1" value="Bike"/>
+        <label for="bike">Bike</label>
+        <input type="checkbox" id="Car" name="vehicle2" value="Car" checked/>   
+        <label for="car">Car</label><br><br>
+
+
+        <label for="lang">Select your Programming Language:</label>
+        <select name="lang" id="lang" required>
+            <optgroup label="Programming languages">
+            <option>Select your language</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+            </optgroup>
+            <optgroup label="Frontened Technologies">
+            <option value="CSS">Python</option>
+            <option value="Javascript">JavaScript</option>
+            </optgroup> </select><br><br> 
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" required/><br><br>
+
+            <label for="appoint">Appointment:</label>
+            <input type="time" id="appoint" name="appoint" required/><br><br>
+
+            <label for="File">File Upload:</label>
+            <input type="file" id="file" name="file" required/><br><br>
+
+
+            <label for="add">Address:</label>
+            <textarea name="text" id="add" rows="5" cols="20"></textarea> <br><br>
+
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+
+
+
+
+
+
+
+
+    </fieldset>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- MAXLENTH --- Maximum no. of character  -->
